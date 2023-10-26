@@ -1,0 +1,23 @@
+
+
+
+#how our resolver / requester is supposed to function from the view of the terminal:
+
+./multilookup (number of requester threads) (number of resolver threads) (path to requester.log) (path to resolver log) (path to data files)
+
+
+./input/name*.txt ---> path to data files
+
+
+
+Bonus Requirements - - - - - - - - - - - - - - - - - -
+1 requester per file
+requester threads may not be equal to # input files
+DNS requires Internet Connection
+NO ERRORS OR WARNINGS RETURNED
+Enable -Wall and -Wextra
+no global variables for requesters, resolvers, or arrays
+no memory leakage
+no pre-existing / libraries for queues, linked lists
+no sleep()
+no deadlock or starvation
